@@ -47,14 +47,17 @@
 		<dependency>
     		<groupId>com.google.cloud</groupId>
     		<artifactId>spring-cloud-gcp-starter-secretmanager</artifactId>
+			<scope>runtime</scope>
         </dependency>
 		<dependency>
         	<groupId>com.google.cloud</groupId>
         	<artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
+			<scope>runtime</scope>
     	</dependency>
 		<dependency>
         	<groupId>com.google.cloud.sql</groupId>
         	<artifactId>mysql-socket-factory-connector-j-8</artifactId>
+			<scope>runtime</scope>
     	</dependency>
 	</dependencies>
 
